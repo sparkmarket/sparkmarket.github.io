@@ -1,0 +1,1323 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.bannerTitle {
+    color: #ffffff;
+  font-size: 80px;
+  text-align: left;
+  margin-top: 14%;
+  /* margin-left: 55px; */
+  margin-left: 25%;
+}
+
+#city {
+  color: #fff;
+  font-weight: 300 !important;
+}
+.navList {
+  background-color:rgba(0,0,0,0.5);
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15%;
+  position: fixed;
+  z-index: 2;
+}
+
+.navList img {
+  width: 140px;
+}
+
+.navListStay img {
+  width: 140px;
+}
+
+.navListStay {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.navList ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.navList li {
+  float: left;
+}
+
+.navList li:nth-child(1){
+  width: 49%;
+  text-align: left;
+  font-size: 35px;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+.navList li:nth-child(2){
+  width: 49%;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.headerStick {
+  position: fixed;
+  background-color: rgba(0,0,0,.6);
+}
+
+.navListStay ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  color: #000;
+}
+
+.navListStay li {
+  float: left;
+}
+
+.navListStay li:nth-child(1){
+  width: 49%;
+  text-align: left;
+  font-size: 35px;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+.navListStay li:nth-child(2){
+  width: 49%;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000;
+}
+
+.blackOut {
+  border: 0px !important;
+}
+
+.blackOut p {
+  color:rgba(0,0,0,0);
+}
+
+
+.banner {
+  background: url(../img/Atl.png) no-repeat center center fixed;
+  width: 100%;
+  height: 1000px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: auto;
+}
+
+.funded {
+  background-color: #FBFBFB;
+  width: 100%;
+  height: 239px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+.past{
+  background-color: ;
+  width: 100%;
+  height: 550px;
+  overflow: auto;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  background: url(../img/boh4.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.projects{
+  /*background-color: #423E38;*/
+  background-color: #fff;
+  width: 100%;
+  height: 515px;
+  overflow-x: scroll;
+  overflow-y: hidden; 
+  position: relative; 
+}
+
+.projectBanner {
+  background-color: #fff;
+  height: 90px;
+  margin-top: -21px;
+  width: 100%;
+}
+/***************************
+****************************
+About section 
+****************************
+***************************/
+.about {
+  list-style-type: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about li {
+  width: 33.33%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  height: 240px;
+}
+
+.about li h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  color: #4c5156;
+
+}
+
+.about li p {
+  text-align: center;
+  font-size: 20px;
+  width: 95%;
+  margin: 0 auto;
+}
+.circle {
+  margin: 40px auto 0px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border: 100%;
+  border-radius: 100%;
+}
+
+.icon {
+  width: 75px;
+  margin: 40px auto;
+  display: block;
+}
+
+.check {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.marker {
+  margin-left: 55px;
+  margin-top: 40px;
+}
+
+.lock {
+  margin-left: 55px;
+  margin-top: 40px;
+}
+
+.hideInfo {
+  width: 98%;
+  height: 210px;
+  background-color: rgba(141, 198, 63, 0.89);
+  position: absolute;
+  top: 0;
+  color: #fff;
+  padding-top: 54px;
+  overflow: hidden;
+  /* margin-top: 15px; */
+  display: none;
+  z-index: 1;
+}
+/***************************
+****************************
+Funded section 
+****************************
+***************************/
+.past ul {
+  width: 100%;
+  height: 500px;
+  background-color: yellow;
+}
+
+.past li {
+  width: 90%;
+  height: 90%;
+  background-color: blue;
+}
+
+
+/***************************
+****************************
+projects section 
+****************************
+***************************/
+.projectList {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+.projectList li {
+  float: left;
+  width: 33.33%;
+  min-width: 360px;
+  height: 50%;
+}
+
+.projectBlock {
+  width: 300px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.projectBlock h3 {
+  color: #4c5156;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 35px;
+  
+}
+
+.projectBlock h5 {
+  color: #4c5156;
+  text-align: center;
+  font-size: 15px;
+  height: 25px;
+  border-bottom: 1px solid #4c5156;
+  margin-top: 10px;
+}
+.location {
+  width: 50%;
+  display: block;
+  margin: 5px auto;
+}
+
+.projectBlock i {
+  float: left;
+  color: #8dc63f;
+  text-align: center;
+  display: block;
+  margin: 2px auto;
+}
+
+.projectBlock p {
+  text-align: center;
+  color: #4c5156;
+}
+
+.projectPicture {
+  width: 275px !important;
+  height: 275px !important;
+  border: 5px solid #4c5156;
+  border-radius: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+
+.statsContainer {
+  width: 32.5% !important;
+  height: 45px !important;
+  /* background-color: green !important; */
+  margin-top: -28px !important;
+  border-right: 2px solid #ccc;
+  float: left;
+}
+.statsContainerLast {
+  width: 32.5% !important;
+  height: 45px !important;
+  /* background-color: green !important; */
+  margin-top: -28px !important;
+  float: left;
+}
+
+.statsContainer p, .statsContainerLast p  {
+  color: #ccc;
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.statsContainer strong, .statsContainerLast strong  {
+  color: #888;
+  font-size: 20px;
+  text-align: center;
+}
+
+.progressBar {
+  width: 10px;
+  height: 75%;
+  margin: 20px auto;
+  background-color: rgba(122, 122, 122, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.groupStats {
+  margin-right: -20px;
+}
+
+.progressFunds {
+  margin-top: -15px;
+  color: #81F786;
+  font-size: 15px;
+  margin-left: 2px;
+  display: block;
+}
+
+.progressShrink {
+  margin-top: 40px;
+}
+
+.progressEquity {
+ margin-top: 18px;
+ color: #819DF7;
+ font-size: 15px;
+ margin-left: -6px;
+ display: block;
+ margin-bottom: 2px;
+}
+.fluidGreen {
+  width: 98%;
+  height: 46%;
+  background-color: #81F786;
+  margin-top: 170px;
+}
+
+.fluidBlue {
+  width: 98%;
+  height: 46%;
+  background-color: #819DF7;
+ 
+}
+
+.projectPicture img {
+  width: 275px;
+  height: 275px;
+  border-radius: 100%;
+}
+
+.projectTitle {
+  text-align: center;
+  margin-bottom: -35px;
+  margin-top: 14px;
+  color: rgba(0,0,0,0.57);
+  font-weight: 500;
+  /* border-bottom: 1px solid #919191; */
+  /* width: 67px; */
+}
+.projectsHeader {
+  text-align: center;
+  margin: 20px auto 20px;
+  color: #4c5156;
+}
+/***************************
+****************************
+past section 
+****************************
+***************************/
+.past h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  position: absolute;
+  top: 268px;
+  left:100px;
+}
+
+.past strong {
+  color: #8dc63f;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.getStarted {
+  position: absolute;
+  top: 365px;
+  left: 220px;
+  width: 140px;
+  height: 50px;
+  background-color: rgba(141, 198, 63, 0.83);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}
+
+
+
+/***************************
+****************************
+Footer section 
+****************************
+***************************/
+footer h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 55px;
+}
+
+footer h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: -7px;
+  font-size: 18px;
+}
+
+.textInput {
+  margin: 40px auto;
+  background: #FAFAFA;
+  width: 380px;
+  height: 40px;
+  display: block;
+  text-align: left;
+  line-height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 0px;
+  resize: none;
+  color:rgba(0, 0, 0, 0.42);
+}
+
+.checkArea {
+  width: 209px;
+  height: 40px;
+  margin-left: auto;
+  display: block;
+}
+
+.checkBox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+
+footer span {
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+
+
+.mover {
+  color: transparent;
+}
+
+.contactButton {
+  width: 150px;
+  height: 40px;
+  background-color: #fff;
+  color:rgba(0, 0, 0, 0.42);
+  text-align: center;
+  line-height: 40px;
+  margin-left: 40px; 
+  display: block;
+}
+
+.submit {
+  list-style-type: none;
+  width: 100%;
+  overflow: auto;
+}
+
+.submit li {
+  float: left;
+  width: 50%;
+}
+
+.footerInfo {
+  list-style-type: none;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+}
+
+.footerInfo li {
+  float: left;
+  width: 16%;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+
+#regFoot {
+  margin-top: 24px;
+}
+
+/***************************
+****************************
+Campaign section 
+****************************
+***************************/
+
+.campaignBanner{
+  width: 100%;
+  height: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+.campaignTitle {
+  width: 100%;
+  height: 200px;
+}
+
+.campaignTitle h1 {
+  text-align: center;
+  color: #4c5156;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.campaignTitle h3 {
+  color: #4c5156;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.campaignTitle ul {
+  list-style-type: none;
+  width: 87%;
+  height: 45px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.campaignTitle li {
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+}
+
+.campaignTitle i {
+  float: left;
+  margin-right: 15px;
+  color: #8dc63f;
+}
+
+.campaignTitle p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.tabs {
+  list-style-type: none;
+  width: 87%;
+  margin: 0 auto 10px;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.activeTab {
+  color: #F7C835 !important;
+}
+
+.tabs li {
+  float: left;
+  width: 10%;
+  height: 80%;
+  color: #4c5156;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid #ccc;
+  font-weight: 600;
+}
+
+.galleryWrapper {
+  width: 90%;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.gallery {
+  width: 110%;
+  height: 450px;
+  float: right;
+  margin-right: -35px;
+  margin-top: 35px;
+}
+
+.displayedPicture {
+  float: left;
+  margin-bottom: -34px;
+  width: 100%;
+  height: 80%;
+  border-bottom: 5px solid #fff;
+  /* border-right: 1px solid #fff; */
+  background-color: rgba(0,0,0,0.04);
+}
+#mainDisplay {
+  max-width: 66%;
+  max-height: 330px;
+}
+
+.thumbnail {
+  width: 16.06%;
+  height: 19%;
+  float: left;
+  margin-right: 5px;
+  /* margin-top: -29px; */
+  margin-top: 5px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.data {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.dataFlag {
+  width: 300px;
+  height: 140%;
+  list-style-type: none;
+  margin: 5px auto;
+  display: block;
+  background-color: #eee;
+  overflow: visible;
+  margin-bottom: 30px;
+}
+.dataFlag li {
+  text-align: center;
+}
+
+.dataFlag li:first-child {
+  height: 40px;
+  background-color: #4c5156;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.dataFlag li:nth-child(7) {
+  height: 40px;
+  background-color: #4c5156;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.dataFlag li {
+  padding-top: 20px;
+  height: 100px;
+  line-height: 40px;
+}
+
+.dataFlag h3 {
+  font-size: 50px;
+  color: #F7C835;
+}
+
+.dataFlag p {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.dataWrapper {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  display: block;
+}
+
+.reward {
+  width: 300px;
+  margin: 0 auto;
+  overflow: visible;
+  background-color: #eee;
+  border-bottom: 1px solid #4c5156;
+}
+
+.reward h5 {
+  padding-top: 8px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #F7C835 !important;
+}
+
+.reward p {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 8px;
+}
+
+.investButton {
+  width: 200px;
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid #E9B30A;
+  border-radius: 10px;
+  background-color: #F7C835;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 26px;
+}
+
+.summary {
+  width: 70%;
+  overflow: visible;
+  height: 100px;
+  display: block;
+  float: right;
+  margin-right: -55px;
+}
+
+.summaryTitle {
+  text-align: center;
+  color: #4c5156;
+  margin-top: 55px;
+  font-size: 35px;
+}
+
+.summary img {
+  display: block;
+  margin: 30px auto;
+}
+
+.campaignSummary p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #4c5156;
+}
+
+canvas {
+  width: 400px !important;
+  height: 00px !important;
+}
+
+.mainImg {
+  width: 100%;
+  height: 80%;
+  border: 2px solid #fff;
+}
+
+.vids {
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+
+.vids iframe {
+  width: 95%;
+  height: 98%;
+  margin: 2px auto;
+  display: block;
+}
+
+
+.campaignSummary{
+  width: 80%;
+  height: 950px !important;
+  margin: -40px auto;
+}
+
+.campaignProfile {
+  width: 80%;
+  height:  900px !important;
+  margin: 0 auto;
+  overflow: visible;
+}
+.campaignComments {
+  width: 80%;
+  height:  900px !important;
+  margin: 0 auto;
+}
+.campaignUpdates {
+  width: 80%;
+  height:  900px !important;
+  margin: 0 auto;
+}
+
+.tabSection {
+  margin-top: 10px;
+}
+
+.profileSocial {
+  margin-top: 15px;
+  width: 200px;
+  height: 500px;
+  float: left;
+}
+
+.profileSocial ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+.profileSocial li {
+  width: 100%;
+  height: 125px;
+  margin-bottom: 5px;
+  border-radius: 75px;
+}
+
+.profileSocial i {
+  margin:0 auto;
+  display: block;
+  line-height: 125px;
+  display: block;
+  text-align: center;
+  color: rgba(252, 252, 252, 0.87);
+
+}
+
+.profileSocial  li:nth-child(1){
+  background-color: #2574a9;
+}
+.profileSocial li:nth-child(2){
+  background-color: #19b5fe;
+}
+.profileSocial li:nth-child(3){
+  background-color: #e74c3c;
+}
+.profileSocial li:nth-child(4){
+  background-color: #d2d7d3;
+}
+
+.overView {
+  width: 80%;
+  height: 500px;
+  display: block;
+  overflow: visible;
+  margin-left: 245px;
+  margin-top: 10px;
+}
+
+.overView h1 {
+  margin-bottom: 13px;
+  font-size: 35px;
+  color:#4c5156;
+  margin-top: 25px;
+}
+
+.overView p {
+  font-size: 20px;
+  color:#4c5156;
+}
+
+.people {
+  margin-top: 13px;
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+  display: block;
+  margin-bottom: 21px;
+}
+
+.people img {
+  float: left;
+  margin-right: 15px;
+}
+
+.people h3 {
+  /* text-align: center; */
+  margin-bottom: 10px;
+  color: #4c5156;
+  font-size: 35px;
+  display: flex;
+  margin-left: 21px;
+  float: initial;
+}
+
+.people p {
+  color:#4c5156;
+}
+
+.people span {
+  color: #8dc63f;
+}
+
+#meetTheTeam {
+  margin-top: 30px;
+}
+
+.commentsWrapper {
+  width: 80%;
+  height: 500px;
+  display: block;
+  overflow: visible;
+  margin-left: 245px;
+  margin-top: 10px;
+
+}
+
+.postWrapper {
+width: 90%;
+height: 300px;
+background-color: rgba(221, 217, 126, 0.26);
+margin: 0 auto;
+display: block;
+border: 1px solid #EEE5E5;
+padding-top: 15px;
+border-radius: 5px;
+}
+
+.postWrapper h1 {
+  color: #4c5156;
+  font-size: 25px;
+  margin-bottom: 13px;
+  margin-left: 10px;
+}
+
+.commentsInput {
+  width: 90%;
+  height: 55%;
+  background-color: #fff;
+  border: 0px;
+  resize:none;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+}
+
+.postButton {
+  margin-top: 13px;
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  background-color: #777;
+  text-align: center;
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.commentsContainer {
+  width: 100%;
+  overflow: visible;
+  margin-top: 100px;
+}
+
+.comment {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.comment img {
+  float: left;
+  height: 75px;
+  width: 75px;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.comment h4 {
+  color: #4c5156;
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.comment h5 {
+  color: #777;
+  margin-top: 14px;
+  font-size: 10px;
+  display: -webkit-inline-box;
+}
+
+.comment p {
+  color: #4c5156;
+  margin-top: 18px;
+}
+
+#updatesDataFlag {
+  width: 300px;
+  margin: 0;
+  float: left;
+  height: 670px;
+}
+
+.updatesWrapper {
+  width: 74%;
+  height: 500px;
+  overflow: visible;
+  margin-left: 325px;
+}
+
+.updatesWrapper p {
+  margin-bottom: 50px;
+  color: #4c5156;
+  font-size: 20px;
+}
+
+.updatesWrapper h1 {
+  color: #8dc63f !important;
+  font-size: 25px;
+  font-weight: 400 !important;
+  margin-bottom: 5px;
+}
+
+.updatesWrapper h3 {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.sliderContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.sliderContainer i {
+  color: #fff;
+  margin-top: 220px;
+  position: absolute;
+  z-index: 2;
+}
+
+#right {
+  float: right;
+  display: block;
+  margin-right: 10px;
+}
+
+#left {
+  margin-left: 10px;
+}
+
+#leftProjects {
+  margin-left: 10px;
+  position: absolute;
+  top: 175px;
+  color: rgba(76, 81, 86, 0.73);
+}
+
+#rightProjects {
+  float: right;
+  display: block;
+  margin-right: 10px;
+  position: absolute;
+  right: 5px;
+  top: 175px;
+  color: rgba(76, 81, 86, 0.73);
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.photo{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+
+
+.slide img {
+  height: 550px;
+  width: 1410px;
+}
+
+
+footer {
+  overflow: hidden;
+  background: url(../img/sparkBG1.jpg) no-repeat center center fixed;
+  width: 100%;
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer i {
+  color: #fff;
+}
+/***************************
+****************************
+sign in page 
+****************************
+***************************/
+
+.loginBlock {
+width: 90%;
+height: 900px;
+margin: 0 auto;
+display: block;
+padding-top: 100px;
+overflow: hidden;
+max-height: 1340px;
+
+}
+
+.loginBlock h1 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.loginBlock h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loginBlock img {
+  display: block;
+  margin: 0 auto;
+  width: 221px;
+}
+
+.loginBlock textarea {
+  width: 340px;
+  height: 30px;
+  resize:none;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 17px;
+  color: #4c5156;
+  line-height: 30px;
+  font-size: 17px;
+  padding-left: 5px;
+  border: 0px;
+}
+
+.glow {
+  border:3px solid #F7C835 ;
+}
+.signInButton {
+  width: 100px;
+  height: 30px;
+  background-color: #000;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.loginBlock p{
+  text-align: center;
+  margin-top: 10px;
+  color: #ccc;
+  margin-left: 154px;
+}
+
+.mainBlock {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin: 40px auto;
+  display: block;
+
+}
+
+.mainBlock li {
+  width: 45%;
+  float: left;
+  background-color: #F3F3F3;
+  margin-left: 50px;
+}
+
+.socialSign {
+  width: 210px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.socialSign i {
+  margin-right: 10px;
+}
+
+#fbSign {
+  background-color: #3B5998;
+
+}
+
+#inSign {
+  background-color: #4875B4;
+}
+
+
+
+.row {
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+}
+
+.row li {
+  width: 50%;
+  height: 50px;
+  float: left;
+  margin-left: 0px !important;
+}
+
+.loginHead {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.loginHead h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+
