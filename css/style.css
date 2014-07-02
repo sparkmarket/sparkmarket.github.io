@@ -223,7 +223,9 @@ About section
   margin: 40px auto;
   display: block;
 }
-
+.weird {
+  margin-bottom: 72px;
+}
 .check {
   margin-left: 40px;
   margin-top: 40px;
