@@ -137,7 +137,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .funded {
@@ -151,7 +151,7 @@ body {
   background-color: ;
   width: 100%;
   height: 550px;
-  overflow: auto;
+  overflow: hidden;
   border-bottom: 1px solid rgba(204, 204, 204, 0.5);
   background: url(../img/boh4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -164,7 +164,7 @@ body {
   background-color: #fff;
   width: 100%;
   height: 515px;
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden; 
   position: relative; 
 }
@@ -282,7 +282,7 @@ projects section
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .projectList li {
@@ -552,7 +552,7 @@ footer span {
 .submit {
   list-style-type: none;
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .submit li {
