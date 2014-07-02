@@ -130,7 +130,7 @@ body {
 
 
 .banner {
-  background: url(../img/Atl.png) no-repeat center center fixed;
+  background: url(../img/ATL.png) no-repeat center center fixed;
   width: 100%;
   height: 1000px;
   -webkit-background-size: cover;
@@ -1171,7 +1171,7 @@ border-radius: 5px;
 
 footer {
   overflow: hidden;
-  background: url(../img/sparkBG1.jpg) no-repeat center center fixed;
+  background: url(../img/ATL.png) no-repeat center center fixed;
   width: 100%;
   height: 400px;
   -webkit-background-size: cover;
