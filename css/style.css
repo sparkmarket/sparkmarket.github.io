@@ -71,7 +71,7 @@ body {
 }
 
 .navList li:nth-child(1){
-  width: 49%;
+  width: 33%;
   text-align: left;
   font-size: 35px;
   line-height: 50px;
@@ -79,13 +79,38 @@ body {
 }
 
 .navList li:nth-child(2){
-  width: 49%;
+  width: 10%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  margin-left: 10px;
+}
+.navList li:nth-child(3){
+  width: 10%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  margin-right: 10px;
+}
+.navList li:nth-child(4){
+  width: 10%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.navList li:nth-child(5){
+  width: 33%;
   text-align: right;
-  padding-right: 10px;
   font-size: 20px;
   line-height: 50px;
   color: #fff;
 }
+
 
 .headerStick {
   position: fixed;
@@ -244,7 +269,7 @@ About section
 .hideInfo {
   width: 98%;
   height: 210px;
-  background-color: rgba(141, 198, 63, 0.89);
+  background-color: rgba(0, 0, 0, 0.69);
   position: absolute;
   top: 0;
   color: #fff;
@@ -259,17 +284,7 @@ About section
 Funded section 
 ****************************
 ***************************/
-.past ul {
-  width: 100%;
-  height: 500px;
-  background-color: yellow;
-}
 
-.past li {
-  width: 90%;
-  height: 90%;
-  background-color: blue;
-}
 
 
 /***************************
@@ -474,8 +489,50 @@ past section
   color: #fff;
 }
 
+.slide2Text {
+  color: #fff;
+  font-size: 48px;
+  position: absolute;
+  top: 28px;
+  left: 411px;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 8px;
+  padding: 0px 15px 0px;
+}
 
+.slide2Text span {
+  color: rgba(141, 198, 63, 1);
+}
 
+.pag {
+  width: 75px;
+  height: 50px;
+  list-style-type: none;
+  position: absolute;
+  top: 525px;
+  left: 47.5%;
+  z-index: 3;;
+
+}
+
+.pag li {
+  float: left;
+  width: 33.33%;
+}
+
+.pag div {
+  height: 10px;
+  width: 10px;
+  border: 2px solid #fff;
+}
+
+.pagFill {
+  background-color: #ccc;
+}
+
+.navList p {
+  float: left;
+}
 /***************************
 ****************************
 Footer section 
@@ -1109,6 +1166,7 @@ border-radius: 5px;
 .sliderContainer {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .sliderContainer i {
@@ -1154,6 +1212,8 @@ border-radius: 5px;
   display: none;
 }
 
+
+
 .photo{
   width: 100%;
   height: 100%;
@@ -1193,7 +1253,7 @@ sign in page
 
 .loginBlock {
 width: 90%;
-height: 900px;
+height: 1100px;
 margin: 0 auto;
 display: block;
 padding-top: 100px;
@@ -1205,6 +1265,7 @@ max-height: 1340px;
 .loginBlock h1 {
   text-align: center;
   font-size: 50px;
+  color: #4c5156;
 
 }
 
@@ -1219,19 +1280,7 @@ max-height: 1340px;
   width: 221px;
 }
 
-.loginBlock textarea {
-  width: 340px;
-  height: 30px;
-  resize:none;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 17px;
-  color: #4c5156;
-  line-height: 30px;
-  font-size: 17px;
-  padding-left: 5px;
-  border: 0px;
-}
+
 
 .glow {
   border:3px solid #F7C835 ;
@@ -1270,14 +1319,19 @@ max-height: 1340px;
   margin-left: 50px;
 }
 
+.pageHalf {
+  height: 400px;
+}
+
 .socialSign {
-  width: 210px;
-  height: 30px;
+  width: 47%;
+  height: 45px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
-  line-height: 30px;
+  line-height: 45px;
   margin-bottom: 20px;
+  float: left;
 }
 
 .socialSign i {
@@ -1308,10 +1362,48 @@ max-height: 1340px;
   margin-left: 0px !important;
 }
 
+.row h5 {
+  text-align: center;
+  color: #ccc;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.feildWrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: 100%;
+
+}
+
+.feild {
+  width: 98%;
+  height: 45px;
+  resize:none;
+  display: block;
+  margin-bottom: 17px;
+  color: #4c5156;
+  line-height: 45px;
+  font-size: 17px;
+  padding-left: 5px;
+  border: 0px;
+}
+
+.short {
+  width: 46% !important;
+  float: left;
+  display: block;
+}
+
+.leftFeild {
+  margin-right: 4% !important;
+}
+
 .loginHead {
   width: 100%;
   height: 50px;
-  background-color: #000;
+  background-color: #4c5156;
   margin-bottom: 20px;
 }
 
@@ -1322,4 +1414,277 @@ max-height: 1340px;
   line-height: 50px;
 }
 
+.styledSelect select {
+   background: transparent;
+   color: #4c5156;
+   width: 100%;
+   font-size: 16px;
+   border: none;
+   height: 45px;
+   padding: 0 20px;
+   -webkit-appearance: none;
+   float: left;
+}
 
+.styledSelect {
+   width: 47.5%;
+   height: 45px;
+   margin-bottom: 15px;
+   overflow: hidden;
+   background: url("../img/select_arrow.png") no-repeat #fff;
+   background-position: top 18px right 18px;
+   float: left;
+}
+
+.checkAreaFeild {
+  width: 100% !important;
+  color:#777 !important;
+  float: left;
+
+}
+
+.checkBoxArea {
+  border: 1px solid #777;
+  margin-right: 10px;
+}
+
+.submitFeilds {
+  width: 120px;
+  height: 45px;
+  background-color: #4c5156;
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.singleForm {
+  margin: 0 auto !important;
+  float: none !important;
+  height: 490px !important;
+}
+
+.infoBlock {
+  width: 90%;
+  display: block;
+  margin: 0 auto 5px;
+  overflow: visible;
+  padding-top: 100px;
+}
+
+.infoBlockExtended {
+  width: 90%;
+  display: block;
+  margin: 0 auto 5px;
+  overflow: visible;
+  padding-top: 100px;
+  height: 1300px;
+}
+
+.infoBlock h1 {
+  color: #4c5156;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+.infoBlock h2 {
+  color: #4c5156;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border-left: 10px solid rgba(230, 126, 34, 0.4);
+  width: 100%;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.infoBlock p {
+  color: #4c5156;
+}
+
+.footer {
+  width: 100%;
+  height: 225px;
+  background-color: #e67e22;
+  border-top: 1px solid #ccc;
+}
+
+.subFooterInfo {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  margin-left: 100px;
+  float: left;
+}
+
+.subFooterInfo li {
+  width: 45%;
+  height: 100%;
+  float: left;
+}
+
+.subFooterInfo h4 {
+  color: #fff;
+  margin-top: 32px;
+}
+
+.loginBlockShort {
+  height: 662px !important;
+}
+
+.footer h1 {
+  color: #fff;
+  margin-left: 27px;
+  display: -webkit-inline-box;
+  margin-top: 20px;
+}
+
+.footer h3 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.textInputFooter {
+  margin-top: 20px;
+
+  background: #FAFAFA;
+  width: 340px;
+  height: 40px;
+  display: block;
+  text-align: left;
+  line-height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 0px;
+  resize: none;
+  color:rgba(0, 0, 0, 0.42);
+  float: left;
+}
+
+.send {
+  width: 40px;
+  height: 44px;
+  background-color: #4c5156;
+  display: -webkit-inline-box;
+  margin-top: 20px;
+}
+
+.send i {
+  color: #fff;
+  display: block;
+  margin: 5px auto;
+}
+
+.socialFooter {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  display: block;
+}
+
+.socialIcon {
+  width: 75px;
+  height: 75px;
+  background-color: rgba(209, 114, 29, 0.56);
+  margin-top: 20px;
+  margin-left: 30px;
+  float: left;
+  display: block;
+}
+
+.socialIconLeft {
+  margin-left: 70px !important;
+}
+
+.footerUl {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+.footerUl li {
+  width: 29.33%;
+  height: 100%;
+  float: left;
+}
+
+.footerUl li:nth-child(1) {
+  width: 38% !important;
+}
+
+.socialIcon i {
+  color: #fff;
+  margin: 15px auto;
+  display: block;
+  text-align: center;
+}
+
+.footerTop {
+  margin-top: 100px;
+}
+
+.largeFeild {
+  height: 200px !important;
+}
+
+.team {
+  float: left;
+  border-radius: 100%;
+  margin-right: 30px; 
+  margin-top: -18px;
+}
+
+.meetTheTeam {
+  border: 0px !important;
+  margin-top: 130px !important;
+}
+
+.meetTheTeamP {
+  margin-bottom: 100px;
+}
+
+.meetTheTeam span {
+  color: #e67e22;
+}
+
+.meetTheTeamSpecial span {
+  color: #e67e22;
+}
+
+.meetTheTeamSpecial {
+  border: 0px !important;
+  margin-top: 50px !important;
+}
+
+.teamHeader {
+  text-align: center !important;
+}
+
+.keepText {
+  width: 186px;
+  height: 250px;
+  float: left;
+}
+
+.keepTextLong {
+  margin-left: -186px;
+}
+
+.personWrapper {
+  width: 100%;
+  height: 105px;
+}
+
+.thankYou {
+  text-align: center !important;
+}
+
+.thankYouP {
+  font-size: 20px;
+  text-align: center !important;
+}
+
+.infoBlockMid {
+  height: 500px !important;
+}

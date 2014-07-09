@@ -27,7 +27,7 @@ var setBanner = {
   bannerSize:function() {
     var viewportHeight = $(window).height() / 2;
     var stick = viewportHeight -65;
-    $(".banner").css("height",viewportHeight + 100);
+    $(".banner").css("height",viewportHeight + 150);
   }
 };
 
@@ -101,6 +101,7 @@ var stickyHeader = {
         $(".campaignUpdates").hide();
         $(".campaignBanner").hide();
         $(".campaignProfile").fadeIn("fast");
+        $(".footer").hide();
       });
 
       $("#overviewTab").click(function(){
@@ -112,6 +113,7 @@ var stickyHeader = {
         $(".campaignComments").hide();
         $(".campaignUpdates").hide();
         $(".campaignProfile").hide();
+        $(".footer").show();
       });
 
       $("#commentsTab").click(function(){
@@ -123,6 +125,7 @@ var stickyHeader = {
         $(".campaignComments").fadeIn("fast");
         $(".campaignUpdates").hide();
         $(".campaignProfile").hide();
+        $(".footer").show();
       });
 
       $("#updatesTab").click(function(){
@@ -134,6 +137,7 @@ var stickyHeader = {
         $(".campaignComments").hide();
         $(".campaignUpdates").fadeIn("fast");
         $(".campaignProfile").hide();
+        $(".footer").show();
       });
     }
   };
@@ -344,8 +348,34 @@ var letsMakeItHappen = {
 
   switcher:function() {
     $("#photo1").show();
+    $("#pag1").addClass("pagFill");
     var counter = 1;
     var currentSlide = $("#photo1");
+
+    $("#pag1").click(function(){
+      $(currentSlide).fadeOut(200);
+      $("#photo1").fadeIn(200);
+      $("#pag2").removeClass("pagFill");
+      $("#pag3").removeClass("pagFill");
+      $("#pag1").addClass("pagFill");
+
+    });
+    $("#pag2").click(function(){
+      $(currentSlide).fadeOut(200);
+      $("#photo2").fadeIn(200);
+      $("#pag1").removeClass("pagFill");
+      $("#pag3").removeClass("pagFill");
+      $("#pag2").addClass("pagFill");
+
+    });
+    $("#pag3").click(function(){
+      $(currentSlide).fadeOut(200);
+      $("#photo3").fadeIn(200);
+      $("#pag1").removeClass("pagFill");
+      $("#pag2").removeClass("pagFill");
+      $("#pag3").addClass("pagFill");
+
+    });
     setInterval(
           function() 
           {
@@ -353,18 +383,24 @@ var letsMakeItHappen = {
            $(currentSlide).fadeOut(200);
            $("#photo2").fadeIn(200);
            currentSlide = $("#photo2");
+           $("#pag2").addClass("pagFill");
+           $("#pag1").removeClass("pagFill");
            counter = 2;
            }
            else if(counter == 2) {
             $(currentSlide).fadeOut(200);
             $("#photo3").fadeIn(200);
             currentSlide = $("#photo3");
+            $("#pag3").addClass("pagFill");
+            $("#pag2").removeClass("pagFill");
             counter = 3;
            }
            else
            {
             $(currentSlide).fadeOut(200);
             $("#photo1").fadeIn(200);
+            $("#pag1").addClass("pagFill");
+            $("#pag3").removeClass("pagFill");
             counter = 1;
            }
 
@@ -377,7 +413,7 @@ var letsMakeItHappen = {
     BannerTitle.init();
     setBanner.init();
     //stickyHeader.init();
-    photoSlider.init();
+   photoSlider.init();
     letsMakeItHappen.init();
     projectSlider.init();
     showInfo.init();

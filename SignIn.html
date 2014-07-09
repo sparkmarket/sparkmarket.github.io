@@ -25,7 +25,7 @@
     <header>
         <div class="navList">
             <ul>
-                <li><img src="img/logo.png"></li>
+                <a href="index.html"><li><img src="img/logo.png"></li></a>
                 <li>Sign up | Login</li>
             </ul>
         </div>
@@ -39,27 +39,91 @@
                         <div class="loginHead">
                             <h5>SIGN IN</h5>
                         </div>
-                        <ul class="row">
-                            <li>
-                                <div id="fbSign" class="socialSign"><i class="fa fa-facebook "></i>Sign in with FaceBook</div>
-                            </li>
-                            <li>
-                                <div id="inSign" class="socialSign"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</div>
-                            </li>
-                        </ul>
-                        <p>Didn't Recieve Instructions?</p>
-                        <textarea id="emailLogin" placeholder="Email"></textarea>
-                        <p>Forgot your password</p>
-                        <textarea id="passwordLogin" placeholder="Password"></textarea>
-                        <div class="signInButton">Sign In</div>
-
-
+                        <div class="feildWrapper">
+                            <div id="fbSign" class="leftFeild socialSign"><i class="fa fa-facebook "></i>Sign in with FaceBook</div>
+                            <div id="inSign" class="socialSign"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</div>
+                            <textarea placeholder="Email" class="feild"></textarea>
+                            <textarea placeholder="Password" class="feild"></textarea>
+                            
+                            <div class="checkArea checkAreaFeild ">
+                                <div id="check2" class="checkBox checkBoxArea"></div><span>Remember Me</span>
+                            </div>
+                            <div class="submitFeilds">Sign In</div>
+                        </div>
                     </li>
                     <li>
-                        <div id="fbSign" class="socialSign"><i class="fa fa-facebook "></i>Sign in with FaceBook</div>
-                        <div id="inSign" class="socialSign"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</div>
+                        <div class="loginHead">
+                            <h5>Create An Account</h5>
+                        </div>
+                        <div class="feildWrapper">
+                            <div id="fbSign" class="leftFeild socialSign"><i class="fa fa-facebook "></i>Sign in with FaceBook</div>
+                            <div id="inSign" class="socialSign"><i class="fa fa-linkedin"></i>Sign in with LinkedIn</div>
+                            <textarea placeholder="First Name" class="feild short leftFeild"></textarea>
+                            <textarea placeholder="Last Name" class="feild short"></textarea>
+                            <textarea placeholder="Address" class="feild"></textarea>
+                            <textarea placeholder="city" class="feild short leftFeild"></textarea>
+                            <textarea placeholder="zipCode" class="feild short"></textarea>
+                            <div class="styledSelect leftFeild ">
+                                <select id="timeProjects" placeholder="city">
+                                    <option value="+value+">"+task+"</option> 
+                                 </select>
+                            </div>
+                            <div class="styledSelect">
+                                <select id="timeProjects">
+                                    <option value="+value+">country</option> 
+                                 </select>
+                            </div>
+                            <textarea placeholder="Email" class="feild short leftFeild"></textarea>
+                            <textarea placeholder="Telephone" class="feild short"></textarea>
+                            <input class="feild short leftFeild" type="password" placeholder="password"></input>
+                            <input class="feild short" type="password" placeholder="Confirm password"></input>
+                            <div class="checkArea checkAreaFeild ">
+                                <div id="check2" class="checkBox checkBoxArea"></div><span>I Certify that i am a Georgia Resident</span>
+                            </div>
+                            <div class="checkArea checkAreaFeild ">
+                                <div id="check2" class="checkBox checkBoxArea"></div><span>I am not a Georgia Resident</span>
+                            </div>
+                            <div class="checkArea checkAreaFeild ">
+                                <div id="check2" class="checkBox checkBoxArea"></div><span>I have read and accepted the terms of use</span>
+                            </div>
+                            <div class="checkArea checkAreaFeild ">
+                                <div id="check2" class="checkBox checkBoxArea"></div><span>Please add my contact to the mailing list</span>
+                            </div>
+                            <div class="submitFeilds">Submit</div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </body>
+        <div class="footer">
+            <ul class="footerUl">
+                <li>
+            <ul class="subFooterInfo">
+                <li>
+                    <h4>Terms of Use</h4>
+                    <h4>Privacy Policy</h4>
+                    <h4>FAQ</h4>
+                </li>
+                <li>
+                    <h4>Contact</h4>
+                    <h4>Investment Risks</h4>
+                    <h4>Meet The Team</h4>
+                </li>
+            </ul>
+            </li>
+            <li>
+            <h1>LET'S MAKE IT HAPPEN</h1>
+            <h3>Enter your email adress and we'll contact you</h3>
+            <textarea class="textInputFooter" type="text" placeholder="Email Address"></textarea>
+            <div class="send"><i class="fa fa-paper-plane-o fa-2x"></i></div>
+            </li>
+            <li>
+            <div class=" socialIconLeft socialIcon"><i class="fa fa-facebook fa-3x"></i></div>
+            <div class="socialIcon"><i class="fa fa-twitter fa-3x"></i></div>
+            <div class="socialIcon"><i class="fa fa-linkedin fa-3x"></i></div>
+            <div class=" socialIconLeft socialIcon"><i class="fa fa-youtube fa-3x"></i></div>
+            <div class="socialIcon"><i class="fa fa-google-plus fa-3x"></i></div>
+            </li>
+            </ul>
+        </div>
   </html>
