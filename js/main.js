@@ -409,7 +409,20 @@ var letsMakeItHappen = {
   }
  };
 
+ var confirm = {
+  init:function() {
+    this.pop();
+  },
+
+  pop:function() {
+    $("#goToConfirm").click(function(){
+      $(".conformation").fadeIn();
+    });
+  }
+ };
+
   (function() {
+    confirm.init();
     BannerTitle.init();
     setBanner.init();
     //stickyHeader.init();

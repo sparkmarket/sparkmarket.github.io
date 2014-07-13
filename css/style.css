@@ -25,10 +25,76 @@ body {
 .bannerTitle {
     color: #ffffff;
   font-size: 80px;
-  text-align: left;
+  text-align: center;
   margin-top: 14%;
   /* margin-left: 55px; */
-  margin-left: 25%;
+  /*margin-left: 25%;*/
+}
+
+.bannerSubTitle {
+    color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.noTag {
+  border: 0px !important;
+  margin-bottom: 20px !important;
+}
+
+.extra {
+  margin-bottom: 50px !important;
+}
+
+.extraLong {
+  margin-bottom: 80px !important;
+}
+.postWrapperLong {
+  width: 100%;
+height: 200px;
+background-color: rgba(0,0,0,0.2);
+/* margin: 0 auto; */
+display: block;
+border: 1px solid rgba(0,0,0,0.2);
+padding-top: 30px;
+border-radius: 5px;
+margin-top: 15px;
+}
+
+.commentsInputLong {
+width: 95%;
+height: 81%;
+background-color: #fff;
+border: 0px;
+resize: none;
+margin: 0 auto;
+display: block;
+font-size: 20px;
+}
+
+.styledSelectFree {
+  width: 250px !important;
+  height: 45px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  background: url("../img/select_arrow.png") no-repeat ;
+  background-position: top 18px right 18px;
+  float: none !important;
+}
+
+.continue {
+  width: 180px;
+  height: 40px;
+  background-color: #4c5156;
+  display: block;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  float: right;
+  margin-top: -80px;
 }
 
 #city {
@@ -111,6 +177,9 @@ body {
   color: #fff;
 }
 
+header {
+  overflow: auto;
+}
 
 .headerStick {
   position: fixed;
@@ -155,7 +224,7 @@ body {
 
 
 .banner {
-  background: url(../img/ATL.png) no-repeat center center fixed;
+  background: url(../img/sparkBG1.jpg) no-repeat center center fixed;
   width: 100%;
   height: 1000px;
   -webkit-background-size: cover;
@@ -654,6 +723,7 @@ Campaign section
 .campaignTitle {
   width: 100%;
   height: 200px;
+  margin-top: 150px;
 }
 
 .campaignTitle h1 {
@@ -851,8 +921,6 @@ Campaign section
   width: 200px;
   height: 70px;
   line-height: 70px;
-  border: 1px solid #E9B30A;
-  border-radius: 10px;
   background-color: #F7C835;
   margin: 0 auto;
   color: #fff;
@@ -1051,10 +1119,10 @@ canvas {
 .postWrapper {
 width: 90%;
 height: 300px;
-background-color: rgba(221, 217, 126, 0.26);
+background-color: rgba(0,0,0,0.2);
 margin: 0 auto;
 display: block;
-border: 1px solid #EEE5E5;
+border: 1px solid rgba(0,0,0,0.2);
 padding-top: 15px;
 border-radius: 5px;
 }
@@ -1212,6 +1280,33 @@ border-radius: 5px;
   display: none;
 }
 
+.conformation {
+  width: 550px;
+  height: 385px;
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  top: 100px;
+  left: 29%;
+  padding-right: 20px;
+  display: none;
+}
+
+.conformation h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.conformation h2 {
+  color: #fff;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+
 
 
 .photo{
@@ -1245,6 +1340,14 @@ footer {
 footer i {
   color: #fff;
 }
+
+.footerMain {
+  background: url(../img/background_bottom_image.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 /***************************
 ****************************
 sign in page 
@@ -1266,7 +1369,12 @@ max-height: 1340px;
   text-align: center;
   font-size: 50px;
   color: #4c5156;
+}
 
+.loginBlockShort h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #4c5156;
 }
 
 .loginBlock h3 {
@@ -1321,6 +1429,20 @@ max-height: 1340px;
 
 .pageHalf {
   height: 400px;
+}
+
+.pageHalfShort {
+  height: 300px;
+}
+
+.loginBlock h2 {
+  margin-bottom: 5px;
+  color:#4c5156;
+}
+
+.loginBlock h4 {
+  margin-bottom: 20px;
+  color:#4c5156;
 }
 
 .socialSign {
@@ -1530,7 +1652,14 @@ max-height: 1340px;
 }
 
 .loginBlockShort {
-  height: 662px !important;
+width: 90%;
+height: 1100px;
+margin: 0 auto;
+display: block;
+padding-top: 100px;
+overflow: hidden;
+max-height: 600px;
+
 }
 
 .footer h1 {
@@ -1593,6 +1722,8 @@ max-height: 1340px;
   display: block;
 }
 
+
+
 .socialIconLeft {
   margin-left: 70px !important;
 }
@@ -1622,6 +1753,10 @@ max-height: 1340px;
 
 .footerTop {
   margin-top: 100px;
+}
+
+.footerTopSuper {
+  margin-top: 130px;
 }
 
 .largeFeild {
@@ -1687,4 +1822,156 @@ max-height: 1340px;
 
 .infoBlockMid {
   height: 500px !important;
+}
+
+.projectTable {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 50px auto;
+  list-style-type: none;
+}
+
+.projectTable li {
+  width: 100%;
+  height: 65px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.tableBlock {
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+}
+
+.tableBlock li {
+  width: 23%;
+  height: 100%;
+  border: 1px solid #ccc;
+  float: left;
+  line-height: 65px;
+  padding-left: 10px;
+  overflow: auto;
+  color: #4c5156;
+  font-size: 18px;
+}
+
+.tableBlock li:nth-child(2){
+  width: 17%;
+}
+
+.tableBlock li:nth-child(3){
+  width: 28%;
+}
+
+.tableBlock li div {
+  float: left;
+}
+
+.editButton {
+  width: 30%;
+  height: 30px;
+  color: #fff;
+  background-color: #3681CC;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 30px !important;
+}
+
+.dashButton {
+  width: 40%;
+  height: 30px;
+  color: #fff;
+  background-color: #4c5156;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 30px !important;
+  margin-right: 20px;
+}
+
+.fundButton {
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background-color: #F7C835;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 30px !important;
+  margin-right: 20px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+
+.wireButton {
+  width: 90%;
+  height: 30px;
+  color: #fff;
+  background-color: #4c5156;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 30px !important;
+  margin-right: 20px;
+}
+
+.tableHead {
+  text-align: center;
+  border: 0px !important;
+  font-size: 20px !important;
+}
+
+.socialIconMain {
+  
+  background-color: rgba(0, 0, 0, 0.36) !important;
+  
+}
+
+.media {
+  border-top: 1px solid #777;
+  width: 100%;
+  height: 300px;
+}
+
+.mediaList {
+  width: 90%;
+  height: 100%;
+  list-style-type: none;
+  margin: 20px auto;
+}
+
+.mediaList li {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.mediaList img {
+  width: 160px;
+  display: block;
+  margin: 0 auto;
+}
+
+.mediaList p {
+  width: 90%;
+  display: block;
+  margin:0 auto;
+}
+
+.marketPlace {
+margin-top: 60px !important;
+width: 285px !important;
+margin-bottom: 52px !important;
+}
+
+.cbc{
+margin-top: 45px !important;
+width: 265px !important;
+margin-bottom: 18px !important;
+}
+
+.ajc {
+  width: 113px !important;
+margin-bottom: 20px !important;
+margin-top: 27px !important;
 }
