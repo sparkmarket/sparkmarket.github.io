@@ -265,8 +265,8 @@ window.Chart = function(context){
 	
 		chart.Doughnut.defaults = {
 			segmentShowStroke : true,
-			segmentStrokeColor : "#fff",
-			segmentStrokeWidth : 2,
+			segmentStrokeColor : "#4c5156",
+			segmentStrokeWidth : 4,
 			percentageInnerCutout : 50,
 			animation : true,
 			animationSteps : 100,
@@ -297,7 +297,7 @@ window.Chart = function(context){
 			scaleFontFamily : "'Arial'",
 			scaleFontSize : 12,
 			scaleFontStyle : "normal",
-			scaleFontColor : "#EBEBEB",
+			scaleFontColor : "#666",
 			scaleShowGridLines : true,
 			scaleGridLineColor : "rgba(0,0,0,.05)",
 			scaleGridLineWidth : 1,
@@ -332,7 +332,7 @@ window.Chart = function(context){
 			scaleFontFamily : "'Arial'",
 			scaleFontSize : 12,
 			scaleFontStyle : "normal",
-			scaleFontColor : "#EBEBEB",
+			scaleFontColor : "#666",
 			scaleShowGridLines : true,
 			scaleGridLineColor : "rgba(0,0,0,.05)",
 			scaleGridLineWidth : 1,

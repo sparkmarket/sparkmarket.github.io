@@ -84,6 +84,32 @@ font-size: 20px;
   float: none !important;
 }
 
+.disclaimer {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.feildWrapper h6 {
+  float: left;
+font-size: 16px;
+width: 50%;
+margin-bottom: 10px;
+}
+
+.colored {
+  background-color: #4c5156;
+  color: #fff !important;
+  text-align: center;
+}
+
+.disclaimer {
+  width: 100%;
+margin: auto;
+font-size: 11px;
+padding-top: 20px;
+}
+
 .continue {
   width: 180px;
   height: 40px;
@@ -224,7 +250,7 @@ header {
 
 
 .banner {
-  background: url(../img/sparkBG1.jpg) no-repeat center center fixed;
+  background: url(../img/atl2.png) no-repeat center center fixed;
   width: 100%;
   height: 1000px;
   -webkit-background-size: cover;
@@ -401,9 +427,13 @@ projects section
   margin-top: 10px;
 }
 .location {
-  width: 50%;
+  width: 70%;
   display: block;
   margin: 5px auto;
+}
+
+.location span {
+  color: #8dc63f;
 }
 
 .projectBlock i {
@@ -521,7 +551,7 @@ projects section
 }
 .projectsHeader {
   text-align: center;
-  margin: 20px auto 20px;
+  margin: 40px auto 20px;
   color: #4c5156;
 }
 /***************************
@@ -740,7 +770,7 @@ Campaign section
   margin-bottom: 50px;
 }
 
-.campaignTitle ul {
+.tabTop {
   list-style-type: none;
   width: 87%;
   height: 45px;
@@ -748,19 +778,19 @@ Campaign section
   border-bottom: 1px solid #ccc;
 }
 
-.campaignTitle li {
+.tabTop li {
   float: left;
   width: 30%;
   margin-left: 10px;
 }
 
-.campaignTitle i {
+.tabTop i {
   float: left;
   margin-right: 15px;
   color: #8dc63f;
 }
 
-.campaignTitle p {
+.tabTop p {
   margin-top: 10px;
   font-weight: 600;
 }
@@ -902,13 +932,18 @@ Campaign section
   border-bottom: 1px solid #4c5156;
 }
 
+
 .reward h5 {
   padding-top: 8px;
   text-align: center;
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 10px;
-  color: #F7C835 !important;
+  color: #4c5156 !important;
+}
+
+.reward span {
+
 }
 
 .reward p {
@@ -954,10 +989,7 @@ Campaign section
   color: #4c5156;
 }
 
-canvas {
-  width: 400px !important;
-  height: 00px !important;
-}
+
 
 .mainImg {
   width: 100%;
@@ -1342,7 +1374,7 @@ footer i {
 }
 
 .footerMain {
-  background: url(../img/background_bottom_image.jpg) no-repeat center center fixed;
+  
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1624,11 +1656,17 @@ max-height: 1340px;
 .infoBlock p {
   color: #4c5156;
 }
+.answer {
+  display: none;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 
 .footer {
   width: 100%;
   height: 225px;
-  background-color: #e67e22;
+  background-color: rgba(0,0,0,0.5);
   border-top: 1px solid #ccc;
 }
 
@@ -1715,7 +1753,7 @@ max-height: 600px;
 .socialIcon {
   width: 75px;
   height: 75px;
-  background-color: rgba(209, 114, 29, 0.56);
+  background-color: rgba(209, 204, 200, 0.56);
   margin-top: 20px;
   margin-left: 30px;
   float: left;
@@ -1730,7 +1768,7 @@ max-height: 600px;
 
 .footerUl {
   width: 100%;
-  height: 91%;
+  height: 100%;
   list-style-type: none;
 }
 
@@ -1970,8 +2008,76 @@ width: 265px !important;
 margin-bottom: 18px !important;
 }
 
-.ajc {
-  width: 113px !important;
-margin-bottom: 20px !important;
-margin-top: 27px !important;
+.campaignStats {
+  height: 150px;
+  width: 87%;
+  margin: 30px auto 30px;
+  background-color: #4c5156;
+}
+
+.statBlock {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+.statBlock li {
+  width: 33%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #eee; 
+}
+
+.statBlock li:last-child {
+  border: 0px !important;
+}
+
+.statBlock h1 {
+  font-size: 30px;
+  color: #eee;
+  margin-top: 30px;
+}
+
+.statBlock h2 {
+  font-size: 30px;
+  color: #eee;
+  margin-top: 50px;
+}
+
+.statBlock span {
+  color: #F7C835 !important;
+}
+
+.placeHolder {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #eee;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+.category {
+  margin-top: 20px;
+  margin-left: 23px;
+}
+
+.learnHow {
+  text-align: center;
+  width: 85% !important;
+  margin-top: 40px;
+}
+
+canvas {
+  width: 130px !important;
+height: 130px !important;
+margin-top: 10px;
+margin-left: 20px;
+float: left;
+display: block;
+margin-right: 20px;
+}
+/* border: 0px !important;*/
 }

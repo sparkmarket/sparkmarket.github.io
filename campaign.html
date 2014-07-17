@@ -39,14 +39,10 @@
         <section class="campaignTitle">
           <h1>Bohemain Guitars</h1>
           <h3>Guitars built out of old oil cans, new look, classic sound</h3>
-          <ul>
+          <ul class="tabTop">
             <li>
               <i class="fa fa-map-marker fa-2x"></i>
               <p>Athens, GA</p>
-            </li>
-            <li>
-              <i class="fa fa-flask fa-2x"></i>
-              <p>Art & Design</p>
             </li>
           </ul>
         </section>
@@ -57,6 +53,51 @@
         <a href="#"><li id="commentsTab">Comments</li></a>
         <a href="#"><li id="updatesTab">Updates</li></a>
       </ul>
+      </section>
+      <section class="campaignStats">
+      <ul class="statBlock">
+        <li>
+          <div class="canvasWrapper">
+          <canvas id="chart-area" width="130" height="130"/>
+  <script>
+
+    var doughnutData = [
+        {
+          value: 40,
+          color: "#eee",
+          highlight: "#A8B3C5",
+          label: "Grey"
+        },
+        {
+          value: 120,
+          color: "#F7C835",
+          highlight: "#616774",
+          label: "Dark Grey"
+        }
+
+      ];
+
+      window.onload = function(){
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : true});
+      };
+  </script>
+        </canvas>
+        </div>
+        <h1><span>$3,000 Raised</span> of the $5,000 goal</h1>
+        </li>
+        <li>
+          <div class="placeHolder">
+            <i class="fa fa-coffee fa-5x category"></i>
+          </div>
+          <h2>Food & Drink</h2>
+        </li>
+        <li>
+          <a href="invest.html">
+            <div class="investButton learnHow">Learn How To Invest</div>
+          </a>
+        </li>
+      </ul>     
       </section>
       <section class="campaignBanner">
         <ul class="galleryWrapper">
@@ -87,23 +128,25 @@
               <li>REWARD CATEGORIES</li>
             </ul>
             <div class="reward">
-              <h5>Early Bird</h5>
+
+              <div class="rewardCover"></div>
+              <h5>Early Bird | <span>$30</span></h5>
               <p>**THE BOOK** The first 25 backers will receive an early bird copy of El Grande Volume 1: The Worm along with an exclusive high-res El Grande illustration will be emailed to you, and your name will be printed on the backers page at the back of the book. Includes backer-only updates and behind-the-scenes previews as we prepare the book for shipping.</p>
               <div class="fundButton">Fund</div>
             </div>
             <div class="reward">
-              <h5>Early Bird</h5>
+              <h5>Early Bird | <span>$30</span></h5>
               <p>**THE BOOK** The first 25 backers will receive an early bird copy of El Grande Volume 1: The Worm along with an exclusive high-res El Grande illustration will be emailed to you, and your name will be printed on the backers page at the back of the book. Includes backer-only updates and behind-the-scenes previews as we prepare the book for shipping.</p>
               <div class="fundButton">Fund</div>
             </div>
             <div class="reward">
-              <h5>Early Bird</h5>
+              <h5>Early Bird | <span>$30</span></h5>
               <p>**THE BOOK** The first 25 backers will receive an early bird copy of El Grande Volume 1: The Worm along with an exclusive high-res El Grande illustration will be emailed to you, and your name will be printed on the backers page at the back of the book. Includes backer-only updates and behind-the-scenes previews as we prepare the book for shipping.</p>
               <div class="fundButton">Fund</div>
             </div>
           </li>
           <li class="vids">
-            <iframe src="http://player.vimeo.com/video/97304185" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+            <iframe src="" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
             <h3 class="summaryTitle">Guitars built out of old oil cans, new look, classic sound</h3>
           </li>
         </ul>

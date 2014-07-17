@@ -27,7 +27,7 @@ var setBanner = {
   bannerSize:function() {
     var viewportHeight = $(window).height() / 2;
     var stick = viewportHeight -65;
-    $(".banner").css("height",viewportHeight + 150);
+    $(".banner").css("height",viewportHeight + 250);
   }
 };
 
@@ -421,7 +421,41 @@ var letsMakeItHappen = {
   }
  };
 
+ var faq = {
+  init:function() {
+    this.showFaq();
+  },
+
+  showFaq:function() {
+    var id = null;
+    $(".question").mouseenter(function(){
+      id = $(this).attr("data-id");
+      $("[data-id="+id+"]").slideDown();
+    });
+    $(".question").mouseleave(function(){
+
+      $(".answer[data-id="+id+"]").slideUp();
+    });
+  }
+ };
+
+ var addVideo = {
+  init:function() {
+    this.addVid();
+  },
+
+  addVid:function() {
+    setTimeout(
+          function() 
+          {
+            $("iframe").attr("src","http://player.vimeo.com/video/97304185");
+          }, 100);
+  }
+ };
+
   (function() {
+    addVideo.init();
+    faq.init();
     confirm.init();
     BannerTitle.init();
     setBanner.init();
