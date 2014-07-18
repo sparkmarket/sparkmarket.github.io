@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Bebas Neue Light';
+  src: url('BebasNeue Light.otf');
+  font-weight: 200;
+}
+
+
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -5,12 +12,13 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 }
 
 *{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bebas Neue Light', sans-serif;
   font-weight: 300;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
   -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
   outline: none !important;
 }
+
 
 a {
   text-decoration: none;
@@ -23,6 +31,7 @@ body {
 }
 
 .bannerTitle {
+  font-family: 'Bebas Neue Light', sans-serif;
     color: #ffffff;
   font-size: 80px;
   text-align: center;
@@ -124,6 +133,8 @@ padding-top: 20px;
 }
 
 #city {
+  font-family: 'Bebas Neue Light', sans-serif;
+  font-weight: 300 !important;
   color: #fff;
   font-weight: 300 !important;
 }
