@@ -6,6 +6,7 @@
     <title>SparkMarket</title>
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/smartphones.css" />
 
 
     <!-- Media query for tablets -->
@@ -27,9 +28,9 @@
     <div class="navList">
             <ul>
                 <li><a href="index.html"><img src="img/logo.png"></li></a>
-                <li><a href="aboutUs.html">About</a></li>
-                <li><a href="howItWorks.html">How it Works</a></li>
-                <li><a href="faq.html">Blog</a></li>
+                <li class="mobileHide"><a href="aboutUs.html">About</a></li>
+                <li class="mobileHide"><a href="howItWorks.html">How it Works</a></li>
+                <li class="mobileHide"><a href="http://blog.sparkmarket.com/">Blog</a></li>
                 <li><a href="signin.html">Sign up | Login</a></li>
             </ul>
         </div>
@@ -45,9 +46,10 @@
                 <div class="howItWorks">
                     <img class="icon" src="img/bulb.png">
                     </div>
-                    <h1>Local</h1>
+                    <h1 class="mobileHide">Local</h1>
                     <div class="hideInfo aboutInfo0">
-                    <p>For the first time in almost 100 years, everyday investors can invest in businesses before they go public. Previously only available to the wealthy.</p>
+                        <h1 class="mobileShow mobileIconText">Local</h1>
+                    <p class="mobileHide">For the first time in almost 100 years, everyday investors can invest in businesses before they go public. Previously only available to the wealthy.</p>
                     </div>
                 </div>
             </li>
@@ -55,9 +57,10 @@
                 <div class="howItWorks">
                     <img class="icon" src="img/doc.png">
                     </div>
-                    <h1>Simple</h1>
+                    <h1 class="mobileHide">Simple</h1>
                     <div class="hideInfo aboutInfo1">
-                    <p>Small businesses create 2 out of every 3 jobs but banks make it hard for them to obtain loans. With SparkMarket you can directly invest in local business and realize a profit.</p>
+                        <h1 class="mobileShow mobileIconText">Simple</h1>
+                    <p class="mobileHide">Small businesses create 2 out of every 3 jobs but banks make it hard for them to obtain loans. With SparkMarket you can directly invest in local business and realize a profit.</p>
                 </div>
                 </div>
             </li>
@@ -65,16 +68,17 @@
                 <div class="howItWorks">
                     <img class="icon weird" src="img/check.png">
                     </div>
-                    <h1>Stock</h1>
+                    <h1 class="mobileHide">Stock</h1>
                     <div class="hideInfo aboutInfo2">
-                    <p>Banks and wealthy investors don't have to determine what businesses are in the community. With sparkmarket you can finance the business you want to exist</p>
+                        <h1 class="mobileShow mobileIconText">Stock</h1>
+                    <p class="mobileHide">Banks and wealthy investors don't have to determine what businesses are in the community. With sparkmarket you can finance the business you want to exist</p>
                 </div>
                 </div>
             </li>
         </ul>
     </section>
     </section>
-        <section class="past">
+        <section class="past mobileHide">
         <div class="sliderContainer">
             <ul class="pag">
                 <li><div id="pag1"></div></li>
@@ -99,8 +103,8 @@
         <h1 class="projectsHeader">Local Marketplace</h1>
     </section>
         <section class="projects">
-            <i id="leftProjects" class="fa fa-angle-left fa-4x"></i> 
-            <i id="rightProjects" class="fa fa-angle-right fa-4x"></i> 
+            <i id="leftProjects" class=" mobileHide fa fa-angle-left fa-4x"></i> 
+            <i id="rightProjects" class=" mobileHide fa fa-angle-right fa-4x"></i> 
        <ul class="projectList">
         <a href="campaign.html">
          <li id="project1">
@@ -166,10 +170,10 @@
          </a>
        </ul>
     </section>
-     <section class="media">
+     <section class="media mobileHide">
         <ul class="mediaList">
             <li>
-                <img src="img/photo.jpg">
+                <img class="crowd" src="img/photo.jpg">
                 <p>"Georgia companies try to raise money from a crowd"</p>
             </li>
             <li>
@@ -177,7 +181,7 @@
                 <p>"For crowdfunding the revolution will be localized"</p>
             </li>
             <li>
-                <img src="img/ajc-logo.gif">
+                <img class="ajc" src="img/ajc-logo.gif">
                 <p>"Investment crowdfunding represents the next logical step in the crowdfunding revolution"</p>
             </li>
             <li>
@@ -187,7 +191,20 @@
         </ul>
     </section>
   </body>
-  <div class="footer  footerMain">
+  <div class="footerMobile">
+            <h4>Terms of Use</h4>
+            <h4>Privacy Policy</h4>
+            <h4>FAQ</h4>
+            <h4>Contact</h4>
+            <h4>Investment</h4>
+            <h4>Meet The Team</h4>
+            <h4><i class="fa fa-facebook fa-2x">facebook</i></h4>
+            <h4><i class="fa fa-twitter fa-2x">twitter</i></h4>
+            <h4><i class="fa fa-linkedin fa-2x">linkedin</i></h4>
+            <h4><i class="fa fa-youtube fa-2x">youtube</i></h4>
+            <h4><i class="fa fa-google-plus fa-2x">google</i></h4>
+  </div>
+  <div class="footer footerMain mobileHide">
             <ul class="footerUl">
                 <li>
             <ul class="subFooterInfo">
@@ -203,22 +220,40 @@
                 </li>
             </ul>
             </li>
-            <li>
+            <li class="mobileHide">
             <h1>LET'S MAKE IT HAPPEN</h1>
             <h3>Enter your email adress and we'll contact you</h3>
             <textarea class="textInputFooter" type="text" placeholder="Email Address"></textarea>
             <div class="send"><i class="fa fa-paper-plane-o fa-2x"></i></div>
             </li>
             <li>
-            <div class=" socialIconLeft socialIcon socialIconMain "><i class="fa fa-facebook fa-3x"></i></div>
-            <div class="socialIcon socialIconMain "><i class="fa fa-twitter fa-3x"></i></div>
-            <div class="socialIcon socialIconMain "><i class="fa fa-linkedin fa-3x"></i></div>
-            <div class=" socialIconLeft socialIcon socialIconMain "><i class="fa fa-youtube fa-3x"></i></div>
-            <div class="socialIcon socialIconMain "><i class="fa fa-google-plus fa-3x"></i></div>
+                <ul class="socail">
+                    <li>
+                        <i class="fa fa-facebook fa-2x"></i>
+                        <span>facebook</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-twitter fa-2x"></i>
+                        <span>twitter</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-linkedin fa-2x"></i>
+                        <span>linkedin</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-youtube fa-2x"></i>
+                        <span>youtube</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-google-plus fa-2x">
+                        </i><span>google +</span>
+                    </li>
+                </ul>
             </li>
             </ul>
         </div>
         <div class="disclaimer">
+            <span class="disWidth">
             <P>By accessing this website and any pages hereon, you agree to be bound by our Privacy Policy and Terms 
 
 of Use . 
@@ -248,5 +283,6 @@ securities whatsoever.
 Neither the SEC nor any state securities commission or regulatory authority approved, passed upon or 
 
 endorsed the merits of any offering posted on this website.</P>
+</span>
         </div>
   </html>

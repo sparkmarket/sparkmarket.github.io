@@ -1,0 +1,89 @@
+@media screen and (max-width: 480px) {
+
+.mobileHide {
+  display: none !important;
+}
+
+.navList li:nth-child(1) {
+width: 56%;
+text-align: left;
+font-size: 35px;
+line-height: 50px;
+padding-left: 10px;
+}
+
+.navList li:nth-child(5) {
+width: 33%;
+text-align: right;
+font-size: 15px;
+line-height: 50px;
+color: #fff;
+}
+
+.bannerTitle {
+font-family: 'Bebas Neue Light', sans-serif;
+color: #ffffff;
+font-size: 80px;
+text-align: center;
+margin-top: 14%;
+/* margin-left: 55px; */
+/* margin-left: 25%; */
+margin-top: 111px;
+}
+
+.mobileIconText {
+  color: #fff !important;
+  font-size: 26px !important;
+}
+
+.projectList {
+list-style-type: none;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+/* overflow: scroll; */
+overflow-x: hidden !important;
+overflow-y: scroll;
+}
+
+.projectList li {
+float: left;
+width: 33.33%;
+min-width: 360px;
+height: 100%;
+}
+
+.projectBlock {
+width: 300px;
+height: 500px;
+display: block;
+/* margin: 0 auto; */
+margin-left: 3%;
+}
+
+.footerMobile {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0,0,0,0.5);
+  display: block;
+}
+
+.footerMobile h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #fff;
+
+}
+
+.footerMobile i {
+  font-size: 16px;
+}
+
+.weird {
+  margin-top: 52px;
+}
+
+
+
+}

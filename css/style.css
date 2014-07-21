@@ -12,7 +12,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 }
 
 *{
-  font-family: 'Bebas Neue Light', sans-serif;
+  font-family: 'Open sans', sans-serif;
   font-weight: 300;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
   -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
@@ -41,7 +41,8 @@ body {
 }
 
 .bannerSubTitle {
-    color: #ffffff;
+  font-family: 'Bebas Neue Light', sans-serif;
+  color: #ffffff;
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
@@ -97,6 +98,7 @@ font-size: 20px;
   width: 100%;
   height: 150px;
   background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
 }
 
 .feildWrapper h6 {
@@ -562,7 +564,7 @@ projects section
 }
 .projectsHeader {
   text-align: center;
-  margin: 40px auto 20px;
+  margin: 50px auto 20px;
   color: #4c5156;
 }
 /***************************
@@ -1046,7 +1048,7 @@ Campaign section
 }
 
 .tabSection {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .profileSocial {
@@ -1679,6 +1681,7 @@ max-height: 1340px;
   height: 225px;
   background-color: rgba(0,0,0,0.5);
   border-top: 1px solid #ccc;
+   padding-top: 50px;
 }
 
 .subFooterInfo {
@@ -1762,13 +1765,7 @@ max-height: 600px;
 }
 
 .socialIcon {
-  width: 75px;
-  height: 75px;
-  background-color: rgba(209, 204, 200, 0.56);
-  margin-top: 20px;
-  margin-left: 30px;
-  float: left;
-  display: block;
+  
 }
 
 
@@ -1793,12 +1790,38 @@ max-height: 600px;
   width: 38% !important;
 }
 
+.socail i {
+  display: block;
+  float: left;
+}
+
+.socail span {
+  margin-top: 8px;
+  display: block;
+  margin-left: 45px;
+}
+
+.socail {
+  list-style-type: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.socail li {
+  width: 100% !important;
+  height: 50px;
+  padding-left: 120px;
+  color: #fff;
+}
+
 .socialIcon i {
   color: #fff;
   margin: 15px auto;
   display: block;
-  text-align: center;
+  text-align: left;
+  margin-left: 85px;
 }
+
 
 .footerTop {
   margin-top: 100px;
@@ -1979,14 +2002,20 @@ max-height: 600px;
 .media {
   border-top: 1px solid #777;
   width: 100%;
-  height: 300px;
+  height: 260px;
+}
+
+.ajc {
+  width: 112px !important;
+  margin-top: 39px !important;
+  margin-bottom: 12px !important;
 }
 
 .mediaList {
   width: 90%;
   height: 100%;
   list-style-type: none;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 .mediaList li {
@@ -2008,9 +2037,14 @@ max-height: 600px;
 }
 
 .marketPlace {
-margin-top: 60px !important;
+margin-top: 65px !important;
 width: 285px !important;
 margin-bottom: 52px !important;
+}
+
+.crowd {
+  margin-top: 17px !important;
+  margin-bottom: -12px !important;
 }
 
 .cbc{
@@ -2081,6 +2115,16 @@ margin-bottom: 18px !important;
   margin-top: 40px;
 }
 
+.disWidth {
+  width: 90%;
+  margin: 50px auto;
+  display: block;
+}
+
+.footerMobile {
+  display: none;
+}
+
 canvas {
   width: 130px !important;
 height: 130px !important;
@@ -2092,3 +2136,4 @@ margin-right: 20px;
 }
 /* border: 0px !important;*/
 }
+
