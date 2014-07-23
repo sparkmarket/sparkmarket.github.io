@@ -453,7 +453,21 @@ var letsMakeItHappen = {
   }
  };
 
+ var reward = {
+  init:function() {
+    this.showUp();
+  },
+
+  showUp:function() {
+    $('.reward').hover(
+          function(){ $(this).addClass("pop")},
+          function(){ $(this).removeClass("pop")}
+    )
+  }
+ };
+
   (function() {
+    reward.init();
     addVideo.init();
     faq.init();
     confirm.init();

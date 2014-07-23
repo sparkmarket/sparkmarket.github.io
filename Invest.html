@@ -9,7 +9,9 @@
 
 
     <!-- Media query for tablets -->
-    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/smartphones.css" />
+    <link rel="stylesheet" href="css/med.css" />
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <!-- Jquery -->
@@ -27,9 +29,9 @@
         <div class="navList">
             <ul>
                 <li><a href="index.html"><img src="img/logo.png"></li></a>
-                <li><a href="aboutUs.html">About</a></li>
-                <li><a href="howItWorks.html">How it Works</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li class="mobileHide"><a href="aboutUs.html">About</a></li>
+                <li class="mobileHide"><a href="howItWorks.html">How it Works</a></li>
+                <li class="mobileHide"><a href="http://blog.sparkmarket.com/">Blog</a></li>
                 <li><a href="signin.html">Sign up | Login</a></li>
             </ul>
         </div>
@@ -86,30 +88,47 @@
                 </a>
             </div>
         </body>
-        <div class="footer footerTop">
-            <ul class="footerUl">
+        <div class="footerMobile">
+            <h4>Terms of Use</h4>
+            <h4>Privacy Policy</h4>
+            <h4>FAQ</h4>
+            <h4>Contact</h4>
+            <h4>Investment</h4>
+            <h4>Meet The Team</h4>
+            <h4><i class="fa fa-facebook fa-2x">facebook</i></h4>
+            <h4><i class="fa fa-twitter fa-2x">twitter</i></h4>
+            <h4><i class="fa fa-linkedin fa-2x">linkedin</i></h4>
+            <h4><i class="fa fa-youtube fa-2x">youtube</i></h4>
+            <h4><i class="fa fa-google-plus fa-2x">google</i></h4>
+  </div>
+        <div class="footer mobileHideOnly footerTop">
+             <ul class="footerUl">
                 <li>
             <ul class="subFooterInfo">
                 <li>
+                    
+                    <h3 class="footerLabel">Legal</h3>
                     <h4>Terms of Use</h4>
                     <h4>Privacy Policy</h4>
-                    <h4>FAQ</h4>
-                </li>
-                <li>
-                    <h4>Contact</h4>
                     <h4>Investment Risks</h4>
-                    <h4>Meet The Team</h4>
+                </li>
+                <li class="reverseMargin">
+                    <h3 class="footerLabel bottomHeader">Sparkmarket</h3>
+                    <h4>Meet the team</h4>
+                    <h4>FAQ</h4>
+                    <h4>Contact</h4>
+                    <h4>Guiidelines</h4>
                 </li>
             </ul>
             </li>
-            <li>
+            <li class="mobileHide">
             <h1>LET'S MAKE IT HAPPEN</h1>
             <h3>Enter your email adress and we'll contact you</h3>
             <textarea class="textInputFooter" type="text" placeholder="Email Address"></textarea>
             <div class="send"><i class="fa fa-paper-plane-o fa-2x"></i></div>
             </li>
             <li>
-             <ul class="socail">
+                <ul class="socail">
                     <li>
                         <i class="fa fa-facebook fa-2x"></i>
                         <span>facebook</span>
@@ -123,16 +142,10 @@
                         <span>linkedin</span>
                     </li>
                     <li>
-                        <i class="fa fa-youtube fa-2x"></i>
-                        <span>youtube</span>
-                    </li>
-                    <li>
-                        <i class="fa fa-google-plus fa-2x">
-                        </i><span>google +</span>
+                        <i class="fa fa-instagram fa-2x"></i>
+                        <span>Instagram</span>
                     </li>
                 </ul>
-            </li>
-            </ul>
             </li>
             </ul>
         </div>

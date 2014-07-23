@@ -1,6 +1,10 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
 
 .mobileHide {
+  display: none !important;
+}
+
+.mobileOnlyHide {
   display: none !important;
 }
 
@@ -20,6 +24,10 @@ line-height: 50px;
 color: #fff;
 }
 
+.mobileOnlyHide {
+  display: none;
+}
+
 .bannerTitle {
 font-family: 'Bebas Neue Light', sans-serif;
 color: #ffffff;
@@ -34,6 +42,11 @@ margin-top: 111px;
 .mobileIconText {
   color: #fff !important;
   font-size: 26px !important;
+  display: block;
+}
+
+.projects {
+  height: 1700px;
 }
 
 .projectList {
@@ -43,14 +56,14 @@ height: 100%;
 margin: 0 auto;
 /* overflow: scroll; */
 overflow-x: hidden !important;
-overflow-y: scroll;
 }
 
 .projectList li {
 float: left;
-width: 33.33%;
+width: 100.33%;
 min-width: 360px;
-height: 100%;
+height: 575px;
+margin: 0 auto;
 }
 
 .projectBlock {
@@ -59,6 +72,7 @@ height: 500px;
 display: block;
 /* margin: 0 auto; */
 margin-left: 3%;
+margin: 0 auto;
 }
 
 .footerMobile {
@@ -81,9 +95,302 @@ margin-left: 3%;
 }
 
 .weird {
-  margin-top: 52px;
+  margin-top: 65px;
+  width: 90px !important;
 }
 
+.cta {
+  margin: 60px auto;
+}
+
+.icon {
+  width: 70px;
+  margin: 60px auto;
+  display: block;
+}
+
+.disWidth {
+ width: 100%; 
+ font-size: 6px;
+/* margin: 50px auto; */
+display: block;
+margin-left: 0px; 
+}
+
+
+.mainBlock li {
+width: 90% !important;
+float: left;
+background-color: #F3F3F3;
+margin-left: 50px;
+margin-bottom: 50px;
+}
+
+.mainBlock li {
+width: 90% !important;
+float: left;
+background-color: #F3F3F3;
+margin-left: 50px;
+margin-bottom: -4px;
+}
+
+.loginBlock {
+width: 100%;
+height: 1713px;
+margin: 0 auto;
+display: block;
+padding-top: 100px;
+overflow: visible;
+/* max-height: 1340px; */
+margin-bottom: 460px;
+}
+
+.mainBlock li {
+width: 100% !important;
+float: left;
+background-color: #F3F3F3;
+margin-left: 0px;
+margin-bottom: -4px;
+margin: 0 auto;
+}
+
+.short {
+width: 45% !important;
+float: left;
+display: block;
+}
+
+.mainBlock li {
+width: 100%;
+float: left;
+background-color: #F3F3F3;
+margin-left: 0px;
+}
+
+.loginBlockShort {
+width: 100%;
+height: 1100px;
+margin: 0 auto;
+display: block;
+padding-top: 100px;
+overflow: hidden;
+max-height: 600px;
+}
+
+.conformation {
+width: 100%;
+height: 385px;
+background-color: rgba(0,0,0,0.8);
+position: absolute;
+top: 100px;
+left: 0%;
+padding-right: 20px;
+display: none;
+}
+
+.infoBlock h2 {
+color: #4c5156;
+margin-top: 30px;
+margin-bottom: 37px;
+border-left: 10px solid rgba(230, 126, 34, 0.4);
+width: 100%;
+height: 30px;
+padding-left: 5px;
+}
+
+.infoBlock h2 {
+color: #4c5156;
+margin-top: 30px;
+margin-bottom: 67px;
+border-left: 10px solid rgba(230, 126, 34, 0.4);
+width: 100%;
+height: 30px;
+padding-left: 5px;
+}
+
+.tableBlock li {
+width: 19%;
+height: 100%;
+border: 1px solid #ccc;
+float: left;
+line-height: 65px;
+padding-left: 10px;
+overflow: auto;
+color: #4c5156;
+font-size: 18px;
+}
+
+.meetTheTeamP {
+margin-bottom: 100px;
+display: none;
+}
+
+.dashButton {
+width: 43px;
+height: 30px;
+color: #fff;
+background-color: #4c5156;
+text-align: center;
+margin-top: 20px;
+line-height: 30px !important;
+margin-right: 20px;
+}
+
+.footer {
+  display: none;
+}
+
+.tabTop p {
+margin-top: 10px;
+font-weight: 600;
+display: none;
+}
+
+.tabTop i {
+float: left;
+margin-right: 15px;
+color: #8dc63f;
+display: none;
+}
+
+.tabs li {
+float: left;
+width: 23%;
+height: 83%;
+color: #4c5156;
+text-align: center;
+line-height: 40px;
+ border-right: 0px solid #ccc; 
+font-weight: 600;
+font-size: 14px;
+background-color: #eee;
+margin-left: 5px;
+}
+
+.tabs {
+list-style-type: none;
+width: 100%;
+margin: 0 auto 54px;
+height: 50px;
+ border-bottom: 0px solid #ccc; 
+}
+
+.tabs li {
+float: left;
+width: 23%;
+height: 83%;
+color: #4c5156;
+text-align: center;
+line-height: 40px;
+ border-right: 0px solid #ccc; 
+font-weight: 600;
+font-size: 14px;
+background-color: #eee;
+margin-left: 5px;
+}
+.tabTop {
+list-style-type: none;
+width: 87%;
+height: 45px;
+margin: 0 auto;
+border-bottom: 0px solid #ccc; 
+}
+
+canvas {
+width: 130px !important;
+height: 130px !important;
+margin-top: 10px;
+margin-left: 20px;
+float: left;
+display: none;
+margin-right: 20px;
+}
+
+.statBlock h1 {
+font-size: 19px;
+color: #eee;
+margin-top: 30px;
+text-align: center;
+}
+
+.placeHolder {
+width: 77px;
+height: 130px;
+border-radius: 100%;
+background-color: #eee;
+margin-top: 10px;
+margin-left: 20px;
+float: left;
+margin-right: 30px;
+display: none;
+}
+
+.statBlock h2 {
+font-size: 22px;
+color: #eee;
+margin-top: 50px;
+text-align: center;
+}
+
+.vids iframe {
+width: 108%;
+height: 98%;
+margin: 2px auto;
+display: block;
+display: none;
+}
+
+.reward p {
+width: 90%;
+margin: 0 auto;
+/* padding-bottom: 8px; */
+/* margin-bottom: 7px; */
+}
+
+.galleryWrapper {
+width: 90%;
+height: 500px;
+display: block;
+margin: 0 auto;
+list-style-type: none;
+margin-left: 10px;
+}
+
+.tabs {
+list-style-type: none;
+width: 100%;
+margin: 0 auto 54px;
+height: 50px;
+border-bottom: 0px solid #ccc;
+display: none;
+}
+
+.statBlock li {
+width: 33%;
+height: 76%;
+float: left;
+border-right: 1px solid #eee;
+}
+
+.statBlock h1 {
+font-size: 19px;
+color: #eee;
+margin-top: 8px;
+text-align: center;
+}
+
+.statBlock h2 {
+font-size: 22px;
+color: #eee;
+margin-top: 27px;
+text-align: center;
+}
+
+.learnHow {
+text-align: center;
+width: 85% !important;
+margin-top: 20px;
+}
 
 
 }
