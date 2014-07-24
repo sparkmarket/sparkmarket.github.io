@@ -964,7 +964,7 @@ Campaign section
   margin: 0 auto;
   overflow: visible;
   background-color: #eee;
-  border-bottom: 1px solid #4c5156;
+  border-bottom: 1px solid rgba(76,81,86,0.21);
 }
 
 
@@ -1049,7 +1049,7 @@ Campaign section
 
 .campaignSummary{
   width: 80%;
-  height: 950px !important;
+  height: 1145px !important;
   margin: -40px auto;
 }
 
